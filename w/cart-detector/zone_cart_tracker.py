@@ -1,7 +1,6 @@
 import cv2
 import json, os
 from ultralytics import YOLO
-
 # === Load YOLOv8 model ===
 model = YOLO("best.pt")
 
